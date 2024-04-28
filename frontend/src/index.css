@@ -1,0 +1,100 @@
+* {
+    background-color: aqua;
+}
+
+.table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background-color: rgb(82, 202, 38);
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(82, 202, 38);
+
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table .btn {
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 6px 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.table .del-btn {
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 6px 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.table .btn:hover {
+    background-color: #f2f2f2;
+}
+
+
+.table .del-btn:hover {
+    background-color: #f2f2f2;
+}
+
+.create-btn {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
